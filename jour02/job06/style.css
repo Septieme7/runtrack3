@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    transition: all 0.5s ease;
+}
+
+body.normal {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+body.konami {
+    background-color: #000C24; /* Bleu foncé de La Plateforme */
+    color: #00D1FF; /* Bleu clair de La Plateforme */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#normal-content, #konami-content {
+    text-align: center;
+    padding: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.indicator {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 1.2em;
+}
+
+#sequence {
+    letter-spacing: 5px;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.konami #sequence {
+    color: #00D1FF;
+}
+
+.plateforme-logo {
+    font-size: 120px;
+    font-weight: bold;
+    margin: 40px 0;
+    color: #00D1FF;
+    text-shadow: 0 0 10px rgba(0, 209, 255, 0.7);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { opacity: 0.7; }
+    50% { opacity: 1; }
+    100% { opacity: 0.7; }
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+.konami h1 {
+    color: #FFFFFF;
+    text-shadow: 0 0 10px rgba(0, 209, 255, 0.5);
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
