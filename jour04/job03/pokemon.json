@@ -1,0 +1,8 @@
+[
+    {"id": 1, "nom": "Bulbizarre", "type": "Plante"},
+    {"id": 4, "nom": "Salamèche", "type": "Feu"},
+    {"id": 7, "nom": "Carapuce", "type": "Eau"},
+    {"id": 25, "nom": "Pikachu", "type": "Électrik"},
+    {"id": 5, "nom": "Reptincel", "type": "Feu"},
+    {"id": 8, "nom": "Tortank", "type": "Eau"}
+]
